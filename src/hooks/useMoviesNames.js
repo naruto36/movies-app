@@ -12,7 +12,7 @@ const useMoviesNames = (pageNumber) => {
                 setLoading(false);
             })
             .catch((error) => {
-                console.error("Error fetching data:", error);
+                console.error("Eror fetcing data While selecting moviws:", error);
             });
     }, [pageNumber]);
 
